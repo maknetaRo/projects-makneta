@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 60px 1fr auto;
+    background: #DDDDDD;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+li {
+    display: inline-block;
+    padding: 1.5rem;
+}
+a {
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-size: 1.rem;
+    text-align: end;
+    font-weight: bold;
+    color: #001f3f;
+}
+
+footer {
+    text-align: center;
+    color: #001f3f;
+    grid-row-start: 3;
+    grid-row-end: 4;
+   
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    line-height: 1.5;
+    justify-content: center;
+}
+
+.box {
+    background: linear-gradient(rgb(24, 141, 38),  rgb(42, 184, 58));
+    width: 60%;
+    height: auto;
+    margin: 4rem auto;
+    padding: 3rem;
+    color: #DDDDDD;
+    box-shadow: 0 40px 15px -15px rgba(42, 184, 58, 0.85);
+    display: grid;
+    grid-template-rows: 64% 26%;
+}
+.box-quote {
+    padding: .7rem 0;
+    
+   }
+
+.box-author {
+    padding: .7rem;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+p {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+}
+.text {
+    font-size: 1.25rem;
+    text-align: justify;
+}
+.box-author {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: right;
+    justify-content: center;
+    align-content: center;
+}
+
+i {
+    color: rgba(0, 0, 0, 0.40);
+}
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
